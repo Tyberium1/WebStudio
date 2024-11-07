@@ -1,0 +1,79 @@
+
+.lineInTop{
+    background-color: white;
+    width: 1600px;
+    height: 80px;
+}
+.menu{
+    margin-left: 60px;
+}
+.email {
+    margin-left: 500px;
+}
+.tel{
+    margin-left: 60px;
+}
+.block{
+    width: 1600px;
+    height: 400px;
+    top: 40px;
+    background-color: #2F303A;
+}
+.firstWords{
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    color: white;
+
+}
+.work{
+    text-align: center;
+   
+}
+.box1{
+    margin-left: 100px;
+}
+.box2{
+    margin-left: 100px;
+}
+.box3{
+    margin-left: 100px;
+}
+.ourTeam{
+    margin-top: 400px;
+    width: 1600px;
+    height: 648px;
+    top: 1446px;
+    background-color: #F5F4FA;
+
+}
+.ourTeamWords{
+    text-align: center;
+}
+.team1{
+    margin-left: 100px;
+}
+.tema2{
+    margin-left: 100px;
+}
+.team3{
+    margin-left: 100px;
+}
+.team4{
+    margin-left: 100px;
+}
+.lineInFooter{
+    width: 1600px;
+    height: 252px;
+    top: 2094px;
+    background-color: #2F303A;
+}
+.logo{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.address{
+    margin-left: 200px;
+    color: white;
+}
+
