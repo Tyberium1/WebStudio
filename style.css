@@ -24,16 +24,16 @@
     text-align: center;
     margin-left: 600px;
     color: white;
-    font-family: 'Montserrat', serif;
+    
 
 
 }
 .description{
-    font-family: 'Montserrat', serif;
+    
 }
 .work{
     text-align: center;
-    font-family: 'Montserrat', serif;
+    
 }
 .box1{
     margin-left: 100px;
@@ -54,7 +54,7 @@
 }
 .ourTeamWords{
     text-align: center;
-    font-family: 'Montserrat', serif;
+    
 }
 .team1{
     margin-left: 100px;
@@ -81,6 +81,8 @@
 .address{
     margin-left: 200px;
     color: white;
+    
+}
+body{
     font-family: 'Montserrat', serif;
 }
-
