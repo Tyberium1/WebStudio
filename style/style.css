@@ -85,4 +85,10 @@
 }
 body{
     font-family: 'Montserrat', serif;
+    
+}
+.container{
+    width: 217px;
+    margin: 0 auto;
+    padding: 0 207px 207px;
 }
