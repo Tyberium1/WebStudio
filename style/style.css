@@ -17,7 +17,7 @@
     width: 1600px;
     height: 400px;
     top: 40px;
-    background-color: #2F303A;
+    background-image: url(/img/shapka.jpg);
 }
 .firstWords{
     display: flex;
@@ -30,6 +30,8 @@
 }
 .work{
     text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
 .box1{
@@ -87,5 +89,22 @@ body{
 
 .description{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
+.card {
+    background: #fff;
+    
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  .card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  .card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
