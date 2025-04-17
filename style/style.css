@@ -203,3 +203,42 @@ body{
     width: 24px;
     height: 24px;
   }
+  .services {
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .servicesTitle {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .servicesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .servicesItem {
+    max-width: 370px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .servicesItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .servicesItem h3 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px 0;
+  }
