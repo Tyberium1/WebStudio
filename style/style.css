@@ -55,21 +55,6 @@
     text-align: center;
     
 }
-.lineInFooter{
-    width: 1600px;
-    height: 252px;
-    top: 2094px;
-    background-color: #2F303A;
-}
-.logo{
-    margin-left: 200px;
-    margin-top: 40px;
-}
-.address{
-    margin-left: 200px;
-    color: white;
-    
-}
 body{
     font-family: 'Montserrat', serif;
     
@@ -158,4 +143,63 @@ body{
   
   .socialIcons a:hover {
     color: #007bff;
+  }
+  .clientLogos {
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+  }
+  .logo {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    margin: auto;
+    width: 1520px;
+    height: 252px;
+    top: 2676px;
+    background-color: #2F303A;
+  }
+  
+  .footerLeft {
+    max-width: 300px;
+  }
+  
+  .footerLeft h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .footerLeft .blue {
+    color: #2196f3;
+  }
+  
+  .footerRight {
+    text-align: center;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
   }
