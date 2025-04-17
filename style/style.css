@@ -55,18 +55,6 @@
     text-align: center;
     
 }
-.team1{
-    margin-left: 100px;
-}
-.tema2{
-    margin-left: 100px;
-}
-.team3{
-    margin-left: 100px;
-}
-.team4{
-    margin-left: 100px;
-}
 .lineInFooter{
     width: 1600px;
     height: 252px;
@@ -107,4 +95,67 @@ body{
     margin: 0;
     font-size: 14px;
     color: #666;
+  }
+  .teamSection {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .teamSection h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .teamContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .teamCard {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .teamCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .teamCard img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .teamCard p {
+    color: #888;
+    margin-bottom: 15px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .socialIcons a {
+    color: #555;
+    font-size: 19.2px;
+    transition: color 0.3s;
+  }
+  
+  .socialIcons a:hover {
+    color: #007bff;
   }
