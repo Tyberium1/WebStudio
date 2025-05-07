@@ -42,6 +42,22 @@
   margin: 0 15px;
   cursor: pointer;
   font-family: inherit;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+}
+.navButton.current::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #2196f3; 
+  border-radius: 2px;
+  transform: scaleX(1);
 }
 
 .navButton:hover {
