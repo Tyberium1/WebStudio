@@ -47,23 +47,45 @@
   color: black;
   padding: 10px;
   font-weight: 500;
+  background: none;
+  border: none;
+  color: #007BFF;
+  font-size: 16px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-family: inherit;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navButton.current::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #2196f3; 
-  border-radius: 2px;
-  transform: scaleX(1);
-}
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .navButton:hover {
-  text-decoration: underline;
+  color: #2196f3;
+  background-color: rgba(33, 150, 243, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.navButton.current:hover::after {
+  transform: scaleX(1);
+}
 .contactInfo {
   display: flex;
   align-items: center;
